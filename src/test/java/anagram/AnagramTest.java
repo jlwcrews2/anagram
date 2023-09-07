@@ -1,3 +1,5 @@
+package anagram;
+
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -9,9 +11,8 @@ public class AnagramTest {
     @Test
     void ShouldReturnNoMatches() {
         Anagram anagram = new Anagram();
-
         Map<String, ArrayList<String>> result = anagram.findAnagrams(Arrays.asList("word", "letter", "biscuit"));
-        assert (result.get("word").isEmpty());
+        assert (result.get("letter").isEmpty());
     }
 
     @Test
