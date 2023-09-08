@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>no.jlwcrews</groupId>
-    <artifactId>anagram</artifactId>
+    <artifactId>anagramTool</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

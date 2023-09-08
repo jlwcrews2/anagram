@@ -2,7 +2,7 @@ package anagram;
 
 import java.util.*;
 
-public class Anagram {
+public class AnagramTool {
 
     Map<String, ArrayList<String>> findAnagrams(List<String> wordList) {
         Map<String, ArrayList<String>> result = new HashMap<>();
